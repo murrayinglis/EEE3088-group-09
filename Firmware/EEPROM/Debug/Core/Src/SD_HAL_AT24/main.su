@@ -1,0 +1,4 @@
+../Core/Src/SD_HAL_AT24/main.c:9:5:main	24	static
+../Core/Src/SD_HAL_AT24/main.c:33:6:SystemClock_Config	96	static
+../Core/Src/SD_HAL_AT24/main.c:63:6:MX_I2C1_Init	8	static
+../Core/Src/SD_HAL_AT24/main.c:81:6:MX_GPIO_Init	40	static
