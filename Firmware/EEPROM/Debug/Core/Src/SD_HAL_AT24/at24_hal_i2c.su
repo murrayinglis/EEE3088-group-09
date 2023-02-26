@@ -1,0 +1,6 @@
+../Core/Src/SD_HAL_AT24/at24_hal_i2c.c:50:5:at24_HAL_WriteBytes	48	static
+../Core/Src/SD_HAL_AT24/at24_hal_i2c.c:85:5:at24_HAL_ReadBytes	48	static
+../Core/Src/SD_HAL_AT24/at24_hal_i2c.c:131:5:at24_HAL_SequentialRead	48	static
+../Core/Src/SD_HAL_AT24/at24_hal_i2c.c:159:5:at24_HAL_EraseMemFull	56	static
+../Core/Src/SD_HAL_AT24/at24_hal_i2c.c:189:5:at24_HAL_WriteString	88	dynamic
+../Core/Src/SD_HAL_AT24/at24_hal_i2c.c:211:5:at24_HAL_ReadString	80	dynamic
