@@ -32,7 +32,7 @@
     (property "Sheetname" "POWER MODULE" (at 48.26 34.8484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "untitled.kicad_sch" (at 48.26 84.4046 0)
+    (property "Sheetfile" "POWER_MODULE.kicad_sch" (at 48.26 84.4046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
