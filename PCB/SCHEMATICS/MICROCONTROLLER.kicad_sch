@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MICROCONTROLLER")
+    (company "UCT")
+    (comment 1 "Author: Murray Inglis")
+    (comment 2 "Version: 2")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)

@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "SENSING MODULE")
+    (company "UCT")
+    (comment 1 "Author: Ankush Chohan ")
+    (comment 2 "Version: 2")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -643,10 +650,10 @@
   (symbol (lib_id "Device:C") (at 137.16 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c98ba80-207e-4564-8c5f-b091cd654ab0)
-    (property "Reference" "C3" (at 137.16 119.2911 90)
+    (property "Reference" "C28323" (at 137.16 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3.3nF" (at 137.16 121.2121 90)
+    (property "Value" "1uF" (at 137.16 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 140.97 123.4948 0)
@@ -669,7 +676,7 @@
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
-          (reference "C3") (unit 1)
+          (reference "C28323") (unit 1)
         )
       )
     )
@@ -788,10 +795,10 @@
   (symbol (lib_id "Device:R_Small_US") (at 106.68 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d67ffba-84d5-4090-9fc6-c7353e0d5595)
-    (property "Reference" "C1" (at 108.331 128.8963 0)
+    (property "Reference" "C11702" (at 109.22 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1K" (at 108.331 130.8173 0)
+    (property "Value" "1K" (at 109.22 131.445 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 106.68 129.54 0)
@@ -814,7 +821,7 @@
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
-          (reference "C1") (unit 1)
+          (reference "C11702") (unit 1)
         )
       )
     )
@@ -1033,7 +1040,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 115.57 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f74cda2-1038-4dad-bc92-da3a24430318)
-    (property "Reference" "C2" (at 117.221 128.8963 0)
+    (property "Reference" "C11702" (at 117.221 128.8963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 115.57 132.08 0)
@@ -1059,7 +1066,7 @@
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
-          (reference "C2") (unit 1)
+          (reference "C11702") (unit 1)
         )
       )
     )
@@ -1168,10 +1175,10 @@
   (symbol (lib_id "Device:C") (at 143.51 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9e0bbd6-d589-4ada-a421-acc96111b8da)
-    (property "Reference" "C1613" (at 143.51 71.0311 90)
+    (property "Reference" "C28323" (at 143.51 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3.3nF" (at 143.51 72.9521 90)
+    (property "Value" "1uF" (at 143.51 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 147.32 75.2348 0)
@@ -1194,7 +1201,7 @@
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
-          (reference "C1613") (unit 1)
+          (reference "C28323") (unit 1)
         )
       )
     )
