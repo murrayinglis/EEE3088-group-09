@@ -879,7 +879,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 65133a3d-bccd-4b28-80c5-1adae14f7d97)
   )
-  (hierarchical_label "5V" (shape input) (at 143.51 33.02 0) (fields_autoplaced)
+  (hierarchical_label "5V" (shape output) (at 143.51 33.02 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6664317b-df24-47e1-9461-b1008e22317a)
   )
