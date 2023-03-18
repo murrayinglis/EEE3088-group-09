@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CP2102_GMR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Silicon Labs", "CP2102-GMR" (!) = "", "QFN50P500X500X100-29N-D", "Quad Flat No-Lead", "634-CP2102-GMR", "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102-GMR?qs=cNyzPCcHMUWu%2FiPhR8KQAw%3D%3D", "CP2102-GMR", "https://www.arrow.com/en/products/cp2102-gmr/silicon-labs?region=nac", "I/O Controller Interface IC USB-TO-UART BRIDGE, qfn-28", "https://www.silabs.com/Support%20Documents/TechnicalDocs/CP2102-9.pdf", "1 mm"
+END_PART
+
+END.

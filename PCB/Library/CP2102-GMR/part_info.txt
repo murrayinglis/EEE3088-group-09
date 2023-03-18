@@ -1,0 +1,9 @@
+Manufacturer=Silicon Labs
+PartNumber=CP2102-GMR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=29
+Version=2.1
+Released=2018-07-15 16:02:46
+Downloaded=2023-03-13 08:19:03
+3D=Y

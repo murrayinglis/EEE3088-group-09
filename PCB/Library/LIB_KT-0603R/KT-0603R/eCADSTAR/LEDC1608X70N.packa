@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "KT-0603R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-27-16:07:50)
+    (mountForm default
+        (footprintRef "LEDC1608X70N")
+        (spec "System")
+    )
+)

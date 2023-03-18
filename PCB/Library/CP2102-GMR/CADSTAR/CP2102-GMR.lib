@@ -1,0 +1,18 @@
+.CP2102-GMR :1 ;I/O Controller Interface IC USB-TO-UART BRIDGE, qfn-28
+QFN50P500X500X100-29N-D
+*STM IC
+*NGS
+*PLB 1="DCD" 2="RI" 3="GND" 4="D+" 5="D-" 6="VDD" 7="REGIN" 8="VBUS" 9="'RST'" 10="NC_1" 11="'SUSPEND'" 12="SUSPEND" 13="NC_2" 14="NC_3" 15="NC_4" 16="NC_5" 17="NC_6" 18="NC/VPP" 19="NC_7" 20="NC_8" 21="NC_9" 22="NC_10" 23="CTS" 24="RTS" 25="RXD" 26="TXD" 27="DSR" 28="DTR" 29="TPAD"
+*MXP 29
+*DFN CP2102-GMR
+~!Manufacturer_Name (Silicon Labs)
+~!Manufacturer_Part_Number (CP2102-GMR)
+~!Mouser Part Number (634-CP2102-GMR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102-GMR?qs=cNyzPCcHMUWu%2FiPhR8KQAw%3D%3D)
+~!Arrow Part Number (CP2102-GMR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cp2102-gmr/silicon-labs?region=nac)
+~!Link Datasheet (https://www.silabs.com/Support%20Documents/TechnicalDocs/CP2102-9.pdf)
+~!Height (1mm)
+~!3D_Model (CP2102-GMR)
+CP2102-GMR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 
