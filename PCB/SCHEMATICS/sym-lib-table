@@ -1,10 +1,4 @@
 (sym_lib_table
   (version 7)
-<<<<<<< HEAD
-  (lib (name "DEBUGGER")(type "KiCad")(uri "${KIPRJMOD}/DEBUGGER.kicad_sym")(options "")(descr ""))
-  (lib (name "AMS1117-3_3")(type "KiCad")(uri "C:/Users/3520/Downloads/LIB_AMS1117-3.3/AMS1117-3.3/KiCad/AMS1117-3_3.kicad_sym")(options "")(descr ""))
-  (lib (name "TP4054-42-SOT25-R")(type "KiCad")(uri "C:/Users/3520/Downloads/LIB_TP4054-42-SOT25-R/TP4054-42-SOT25-R/KiCad/TP4054-42-SOT25-R.kicad_sym")(options "")(descr ""))
-  (lib (name "schotkky")(type "KiCad")(uri "C:/Users/3520/Downloads/SCHOTTKY/PMEG6010CEJ.kicad_sym")(options "")(descr ""))
-=======
->>>>>>> c0a38158d393cc1c62b974d64ee0e199e6c43d3e
+  (lib (name "Battery")(type "KiCad")(uri "${KIPRJMOD}/Battery.kicad_sym")(options "")(descr ""))
 )
