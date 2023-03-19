@@ -789,7 +789,6 @@
     )
   )
 
-
   (junction (at 139.7 163.195) (diameter 0) (color 0 0 0 0)
     (uuid 1debb562-c94d-4e64-a5d5-2303353011bf)
   )
@@ -1325,10 +1324,15 @@
     (uuid ec7d562c-14b4-418a-8a9e-da4af0bfac1c)
   )
 
-  (hierarchical_label "UVLO Output" (shape input) (at 127.635 49.53 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0c0f4c1e-a5d9-40d3-bd95-b5b6717d3f14)
+  (label "UVLO Output" (at 127.635 49.53 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 0a53d7b8-84e3-4425-87c4-bb26c8182058)
   )
+  (label "UVLO Output" (at 214.63 124.46 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1caaf62a-ab2a-47c3-8e05-8335fe41e6b7)
+  )
+
   (hierarchical_label "Battery" (shape output) (at 43.18 90.805 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 24986b53-a0dd-4fdb-9e88-91edfeaf7af2)
@@ -1348,10 +1352,6 @@
   (hierarchical_label "5V" (shape input) (at 63.5 24.13 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6cc9a038-878f-4872-b711-efaba3879cb2)
-  )
-  (hierarchical_label "UVLO Output" (shape input) (at 214.63 124.46 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f03b1c16-89cf-43b6-abb8-0fb2fbf7ba82)
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 240.03 36.83 0) (unit 1)
@@ -1397,8 +1397,8 @@
     (property "Datasheet" "" (at 43.815 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid de2d75d0-0836-414b-a15d-9412e876529d))
-    (pin "" (uuid de2d75d0-0836-414b-a15d-9412e876529d))
+    (pin "" (uuid de2d75d0-0836-414b-a15d-9412e876529f))
+    (pin "" (uuid de2d75d0-0836-414b-a15d-9412e876529f))
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/c574ee02-103d-4bad-a8c0-5ec1707f609e"
