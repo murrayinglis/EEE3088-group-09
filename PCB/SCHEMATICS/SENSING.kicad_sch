@@ -311,6 +311,7 @@
     )
   )
 
+
   (junction (at 195.58 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 0e7063e2-ed3f-4ffb-b923-49a2449dd81e)
   )
@@ -650,7 +651,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c991ce22-9760-406c-98ba-3306df22f16e)
   )
-  (hierarchical_label "3V3" (shape input) (at 134.62 52.07 0) (fields_autoplaced)
+  (hierarchical_label "3V3" (shape output) (at 134.62 52.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f68e6a37-224c-4af6-8b81-fd79ed1d3164)
   )
