@@ -789,6 +789,7 @@
     )
   )
 
+
   (junction (at 139.7 170.18) (diameter 0) (color 0 0 0 0)
     (uuid 1debb562-c94d-4e64-a5d5-2303353011bf)
   )
@@ -2137,8 +2138,8 @@
     (property "Datasheet" "" (at 52.07 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6d22e276-6dd1-46bf-8b0f-85a6f161203b))
-    (pin "" (uuid 6d22e276-6dd1-46bf-8b0f-85a6f161203b))
+    (pin "" (uuid 6d22e276-6dd1-46bf-8b0f-85a6f161203c))
+    (pin "" (uuid 6d22e276-6dd1-46bf-8b0f-85a6f161203c))
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b"
