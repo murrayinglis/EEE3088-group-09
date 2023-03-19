@@ -8,6 +8,6 @@
   (lib (name "LIB_AMS1117-3.3")(type "KiCad")(uri "C:/Users/3520/Downloads/LIB_AMS1117-3.3/AMS1117-3.3/KiCad")(options "")(descr ""))
   (lib (name "LIB_TP4054-42-SOT25-R")(type "KiCad")(uri "C:/Users/3520/Downloads/LIB_TP4054-42-SOT25-R/TP4054-42-SOT25-R/KiCad")(options "")(descr ""))
   (lib (name "10UF")(type "KiCad")(uri "C:/Users/3520/Downloads/10UF")(options "")(descr ""))
-  (lib (name "footprint")(type "KiCad")(uri "C:/Users/3520/Desktop/foots/JLC2KiCad_lib/footprint")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/footprint/JLC2KiCad_lib/footprint")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/UCT_library/uct_kicad_library-master/footprints")(options "")(descr ""))
 )
