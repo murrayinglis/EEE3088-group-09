@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1206W4F1003T5E"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-22-03:01:20)
+    (mountForm default
+        (footprintRef "RESC3116X65N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,18 @@
+.LTR-303ALS-01 :1 ;Ambient Light Sensors Ambient Light Photo Sensor
+LTR303ALS01
+*STM LED
+*NGS
+*PLB 1="VDD" 2="NC" 3="GND" 4="SCL" 5="INT" 6="SDA"
+*MXP 6
+*DFN LTR-303ALS-01
+~!Manufacturer_Name (Lite-On)
+~!Manufacturer_Part_Number (LTR-303ALS-01)
+~!Mouser Part Number (859-LTR-303ALS-01)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Lite-On/LTR-303ALS-01?qs=Ml%2FaxAEbwm%252Bm%252BetMkBDC8g%3D%3D)
+~!Arrow Part Number (LTR-303ALS-01)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ltr-303als-01/lite-on-technology?region=nac)
+~!Link Datasheet (http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf)
+~!Height (0mm)
+~!3D_Model (LTR-303ALS-01)
+LTR-303ALS-01
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTR_303ALS_01'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Lite-On", "LTR-303ALS-01" (!) = "", "LTR303ALS01", "Other", "859-LTR-303ALS-01", "https://www.mouser.co.uk/ProductDetail/Lite-On/LTR-303ALS-01?qs=Ml%2FaxAEbwm%252Bm%252BetMkBDC8g%3D%3D", "LTR-303ALS-01", "https://www.arrow.com/en/products/ltr-303als-01/lite-on-technology?region=nac", "Ambient Light Sensors Ambient Light Photo Sensor", "http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf", "0 mm"
+END_PART
+
+END.

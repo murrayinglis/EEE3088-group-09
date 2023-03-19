@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LTR303ALS01"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LTR303ALS01")
+        (spec "default")
+    )
+)

@@ -2152,7 +2152,7 @@
   (symbol (lib_id "DEBUGGER:Micro_usb") (at 124.46 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3eac6c0-08c0-4a04-b322-a43b3ffa3794)
-    (property "Reference" "MicroXNJ" (at 118.7037 53.6568 0)
+    (property "Reference" "MicroXNJ1" (at 118.7037 53.6568 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 124.46 63.5 0)
@@ -2188,7 +2188,7 @@
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/f1cf3ff5-1ffc-45ee-bf83-2ece91c9ccf0"
-          (reference "MicroXNJ") (unit 1)
+          (reference "MicroXNJ1") (unit 1)
         )
       )
     )

@@ -1,0 +1,9 @@
+Manufacturer=Lite-On
+PartNumber=LTR-303ALS-01
+PartCategory=LED
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2018-03-15 18:01:04
+Downloaded=2023-03-17 10:48:16
+3D=Y

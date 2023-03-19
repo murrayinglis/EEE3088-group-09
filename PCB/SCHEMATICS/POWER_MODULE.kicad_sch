@@ -2137,7 +2137,7 @@
   (symbol (lib_id "Battery charging:TP4054") (at 66.04 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 815b44c2-5142-4946-a1c6-01e1c2072de2)
-    (property "Reference" "TP4054-42-SOT25R" (at 66.04 79.0655 0)
+    (property "Reference" "TP4054-42-SOT25R1" (at 66.04 79.0655 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 66.04 59.69 0)
@@ -2163,7 +2163,7 @@
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/c574ee02-103d-4bad-a8c0-5ec1707f609e"
-          (reference "TP4054-42-SOT25R") (unit 1)
+          (reference "TP4054-42-SOT25R1") (unit 1)
         )
       )
     )

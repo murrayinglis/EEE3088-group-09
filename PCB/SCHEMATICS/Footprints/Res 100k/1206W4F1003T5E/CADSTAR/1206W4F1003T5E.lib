@@ -1,0 +1,18 @@
+.1206W4F1003T5E :1 ;Chip Resistor - Surface Mount 100KOhms +/-1% 1/4W 1206 RoHS
+RESC3116X65N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 1206W4F1003T5E
+~!Manufacturer_Name (Uniroyal Elec)
+~!Manufacturer_Part_Number (1206W4F1003T5E)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1003T5E_C17900.pdf)
+~!Height (0.65mm)
+~!3D_Model (1206W4F1003T5E)
+"1206W4F1003T5E"
+1.1!U 2.1!U 
