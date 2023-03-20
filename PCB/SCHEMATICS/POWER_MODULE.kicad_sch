@@ -989,7 +989,6 @@
     )
   )
 
-
   (junction (at 189.865 161.29) (diameter 0) (color 0 0 0 0)
     (uuid 1debb562-c94d-4e64-a5d5-2303353011bf)
   )
@@ -2028,8 +2027,8 @@
     (property "Unit Price" "0.0167" (at 63.5 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "C" (uuid 8fccb721-7d02-4cf7-98cf-1c5f719f1bf2))
     (pin "A" (uuid acdc23e8-e48d-43b6-aab4-cc79436b19e8))
+    (pin "C" (uuid 8fccb721-7d02-4cf7-98cf-1c5f719f1bf2))
     (instances
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/c574ee02-103d-4bad-a8c0-5ec1707f609e"
