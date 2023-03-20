@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.540005,
-          "width": 0.565659
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,13 +48,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,15 +165,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -190,7 +177,13 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1181100|1041400|0fbb4553-ff4c-4856-b14e-35ecdfe28f8d|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1181100|1244600|f3330bf6-d3b4-4d2f-a189-f7f558af1a92|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1816100|901700|783a08f9-702e-4e19-9f81-c4f86053f23a|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1892300|977900|4e48530c-2c39-4258-8fbf-5e2d746f3761|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2419350|1187450|4e48530c-2c39-4258-8fbf-5e2d746f3761|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -426,23 +419,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.3,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -452,20 +428,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "3v3"
-      },
-      {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Battery"
       }
     ]
   },
