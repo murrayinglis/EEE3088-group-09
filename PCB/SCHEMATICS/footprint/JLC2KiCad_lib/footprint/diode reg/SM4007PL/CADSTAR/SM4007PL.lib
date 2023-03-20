@@ -1,0 +1,18 @@
+.SM4007PL :1 ;1kV 1A 1.1V @ 1A SOD-123FL Diodes - General Purpose RoHS
+SODFL3718X125N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SM4007PL
+~!Manufacturer_Name (MDD)
+~!Manufacturer_Part_Number (SM4007PL)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf)
+~!Height (1.25mm)
+~!3D_Model (SM4007PL)
+SM4007PL
+1.1!U 2.1!U 

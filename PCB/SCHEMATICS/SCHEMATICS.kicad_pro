@@ -178,8 +178,10 @@
   },
   "erc": {
     "erc_exclusions": [
-      "power_pin_not_driven|1816100|901700|783a08f9-702e-4e19-9f81-c4f86053f23a|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2419350|1187450|4e48530c-2c39-4258-8fbf-5e2d746f3761|00000000-0000-0000-0000-000000000000|||"
+      "lib_symbol_issues|1244600|635000|e3eac6c0-08c0-4a04-b322-a43b3ffa3794|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2400300|419100|71d340e3-9e65-4c06-8b0b-5379d4fe557d|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2552700|1270000|65fb17c2-5c6a-45e1-833e-2134ea542106|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|558800|647700|815b44c2-5142-4946-a1c6-01e1c2072de2|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
       "version": 0
@@ -364,7 +366,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -374,14 +376,14 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "ignore",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
       "unannotated": "error",

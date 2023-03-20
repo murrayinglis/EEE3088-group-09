@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "0402WGF0000TCE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-09-10:29:18)
+    (mountForm default
+        (footprintRef "RESC1005X40N")
+        (spec "System")
+    )
+)

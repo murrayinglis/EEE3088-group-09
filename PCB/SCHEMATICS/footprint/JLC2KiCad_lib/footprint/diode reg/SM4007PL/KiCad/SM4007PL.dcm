@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM4007PL
+D 1kV 1A 1.1V @ 1A SOD-123FL Diodes - General Purpose RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf
+$ENDCMP
+#
+#End Doc Library
