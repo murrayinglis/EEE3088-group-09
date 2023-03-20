@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Battery")(type "KiCad")(uri "${KIPRJMOD}/Battery.kicad_sym")(options "")(descr ""))
   (lib (name "Headers")(type "KiCad")(uri "${KIPRJMOD}/Headers.kicad_sym")(options "")(descr ""))
+  (lib (name "ams")(type "KiCad")(uri "C:/Users/ankus/OneDrive/Desktop/EEE3088-group-09/PCB/footprint/JLC2KiCad_lib/Schematic/AMS1117-3_3_C369933.kicad_sym")(options "")(descr ""))
 )

@@ -573,6 +573,31 @@
     (uuid f68e6a37-224c-4af6-8b81-fd79ed1d3164)
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 118.11 124.46 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0938a301-bc5e-4059-a14b-5fff0678b664)
+    (property "Reference" "TP36" (at 120.65 127.127 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "TestPoint" (at 120.65 129.667 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 113.03 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 113.03 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ae2edd00-ede9-4162-a51e-8b4837f8792d))
+    (instances
+      (project "SCHEMATICS"
+        (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
+          (reference "TP36") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 109.22 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c98ba80-207e-4564-8c5f-b091cd654ab0)
@@ -631,31 +656,6 @@
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
           (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 134.62 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 11a93d8f-96fe-44c6-b7e7-2e523f27641a)
-    (property "Reference" "#PWR022" (at 134.62 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 134.62 122.2455 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 134.62 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 134.62 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8d5f8c60-40e1-4f1d-b451-9565516cca3b))
-    (instances
-      (project "SCHEMATICS"
-        (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
-          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -765,31 +765,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 101.6 100.33 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2d8c55c9-cf6e-4d3f-b512-738d30655ec8)
-    (property "Reference" "#PWR020" (at 95.25 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 97.79 100.965 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 101.6 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 101.6 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d3bfeae2-ee10-460a-ae13-484fb453a777))
-    (instances
-      (project "SCHEMATICS"
-        (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small_US") (at 69.85 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36a9011c-731d-4029-bcbc-86d0f295c8ed)
@@ -823,6 +798,31 @@
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
           (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 101.6 100.33 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4f9520dd-405f-4499-aed8-95babda020e4)
+    (property "Reference" "TP16" (at 98.298 95.25 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 98.298 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 101.6 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 101.6 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 92bf7cb9-2dc2-446a-aa90-ed3069fc3e94))
+    (instances
+      (project "SCHEMATICS"
+        (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -1066,31 +1066,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 118.11 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a7451e66-21e5-4134-ae66-0207dc36f3fe)
-    (property "Reference" "#PWR021" (at 118.11 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 118.11 129.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 118.11 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 118.11 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ce15393f-8c79-44bd-a4f2-c4b80ee980f3))
-    (instances
-      (project "SCHEMATICS"
-        (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 195.58 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab5e721e-3937-4511-aa44-57a639e67087)
@@ -1316,6 +1291,31 @@
       (project "SCHEMATICS"
         (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
           (reference "R23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 134.62 118.11 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d734ae22-627f-44df-ab05-2c734ff8cd23)
+    (property "Reference" "TP17" (at 137.16 120.777 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "TestPoint" (at 137.16 123.317 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 129.54 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 129.54 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0b6447c3-bfc0-4c91-8562-52faa8c1b4a9))
+    (instances
+      (project "SCHEMATICS"
+        (path "/c9ca3a5c-30cb-4dce-b611-3270b9f3284b/1428f64b-a76f-4ab8-8617-b5b39829c481"
+          (reference "TP17") (unit 1)
         )
       )
     )
