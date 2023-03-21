@@ -2112,7 +2112,7 @@
     (property "Reference" "R40" (at 174.625 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Value: Value: Value: Value:  510k" (at 174.625 139.7 0) (show_name)
+    (property "Value" "Value: Value: Value: Value: Value:  510k" (at 174.625 139.7 0) (show_name)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "footprint:R0402" (at 172.72 137.795 0)
