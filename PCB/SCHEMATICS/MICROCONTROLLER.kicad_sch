@@ -1227,7 +1227,6 @@
     )
   )
 
-
   (junction (at 71.12 124.46) (diameter 0) (color 0 0 0 0)
     (uuid 06a324ea-f34b-4f28-aff3-140b5ca1c346)
   )
@@ -2224,7 +2223,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x24_Pin") (at 199.39 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 00edbb14-0c39-483b-83a6-1b808d5687e4)
     (property "Reference" "J2" (at 200.025 100.33 0)
       (effects (font (size 1.27 1.27)))
@@ -3083,7 +3082,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x24_Pin") (at 170.815 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid ab02ad48-f7b9-4aab-9ffc-bdd1fa4f22d8)
     (property "Reference" "J1" (at 171.45 97.79 0)
       (effects (font (size 1.27 1.27)))
