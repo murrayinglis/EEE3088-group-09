@@ -7,7 +7,6 @@ D2;1N4001;footprint:SOD-123F_L2.8-W1.8-LS3.7-RD;http://www.vishay.com/docs/88503
 D3;D_Zener;footprint:LL-34_L3.5-W1.5-RD;~;;;;;;;;;;   C8056;;;;;0.0111 ;1
 D6-D8;LED;footprint:LED0603-RD;~;;;;;    C2286;;;;;    C2286;;;;;0.0054;3
 IC1;CP2102-GMR;footprint:WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2;https://www.silabs.com/Support%20Documents/TechnicalDocs/CP2102-9.pdf;CP2102-GMR;https://www.arrow.com/en/products/cp2102-gmr/silicon-labs?region=nac;;1;;Silicon Labs;CP2102-GMR;634-CP2102-GMR;https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102-GMR?qs=cNyzPCcHMUWu%2FiPhR8KQAw%3D%3D;C6568;;;;;2.3774 ;1
-J1, J2;Conn_01x24_Pin;Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical;~;;;;;;;;;;;;;;;;2
 MicroXNJ1;;footprint:MICRO-USB-SMD_MICROXNJ;;;;YES;;    C404969;;;;;    C404969;;;;;0.0333;1
 Q1;PMOS;footprint:SOT-23-3_L3.0-W1.6-P1.90-LS2.8-BR;https://ngspice.sourceforge.io/docs/ngspice-manual.pdf;;;;;;;;;;C2959854;PMOS;1=D 2=G 3=S;VDMOS;;0.0851;1
 R1, R4, R5, R7, R14-R17, R24, R26, R28-R34;0;footprint:RESC1005X40N;~;;;;;;;;;;   C17168;;;;;0.0005;17
@@ -23,10 +22,9 @@ R18-R21;1k;footprint:R0402;~;;;;;    C11702;;;;;    C11702;;;;;0.0005;4
 R22, R23;100k;footprint:R1206;~;;;;;    C17900;;;;;    C17900;;;;;0.003;2
 R40;Value: Value: Value: Value: Value: Value: Value:  510k;footprint:R0402;~;;;;;;;;;;C11616;;;;;0.0005;1
 REF1, REF2;AMS1117-3_3_C369933;footprint:SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR;https://item.szlcsc.com/84517.html;;;;;C369933;;;;;C369933;;;;;0.0646 ;2
-TP1-TP36;TestPoint;TestPoint:TestPoint_Pad_D2.0mm;~;;;;;;;;;;-- mixed values --;;;;;;36
 TP4054-42-SOT25R1;;footprint:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL;;;;;1;    C32574;TOP POWER;TP4054-42-SOT25-R;;;    C32574;;;;;0.1433;1
 U1;C7433;footprint:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL;https://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf;;;;;;;;;;C7433;;;;;0.2804;1
 U3, U5;LTR-303ALS-01;footprint:SOT-363_L2.0-W1.3-P0.65-LS2.1-BL;http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf;;;YES;;;;;;;C364577;;;;;0.3887;2
 U6, U7;C6482;footprint:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL;http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf;;;YES;;;;;;;C6482;;;;;0.4906;2
-U8;;footprints:STM32F051C6T6;;;;;;;;;;;;;;;;;1
-U9;;footprints:18650_Holder_SMD;;;;;;;;;;;;;;;;;1
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
